@@ -1,0 +1,43 @@
+{
+  "name": "susscope2",
+  "version": "0.0.1",
+  "description": "Framework for Scope2 GHG Emissions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energychain/SusScope2.git"
+  },
+  "keywords": [
+    "scope2",
+    "ghg",
+    "ict",
+    "14064-1",
+    "emission",
+    "energy",
+    "reporting"
+  ],
+  "author": "STROMDAO GmbH <dev@stromdao.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/energychain/SusScope2/issues"
+  },
+  "homepage": "https://github.com/energychain/SusScope2#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "moleculer": "^0.14.34",
+    "moleculer-web": "^0.10.7",
+    "mongodb": "^6.9.0",
+    "nats": "^2.28.2",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
