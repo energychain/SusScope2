@@ -29,7 +29,9 @@ module.exports = {
         "GET /timestamp": "timestamp.get",
         "POST /asset/meter": "meters.create",
         "GET /asset/meters" : "meters.list",
-        "GET /data/advisor": "data.advisor"  
+        "GET /data/advisor": "data.advisor",
+        "GET /data/energyprice": "data.energyprice",
+        "GET /data/gsi": "data.gsi"    
       },
       authorization: true
     }],

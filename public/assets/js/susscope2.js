@@ -77,6 +77,13 @@ const SusScope2 = {
     },
     advisor: async function(zip,meterid) {
         return await this.get("/api/data/advisor?zip="+zip+"&meterid="+meterid);
+    },
+
+    energyprice: async function(zip,meterid) {
+        return await this.get("/api/data/energyprice?zip="+zip+"&meterid="+meterid);
+    },
+    gsi: async function(zip,meterid) {
+        return await this.get("/api/data/gsi?zip="+zip+"&meterid="+meterid);
     }
 
 }
