@@ -28,7 +28,7 @@
   "homepage": "https://github.com/energychain/SusScope2#readme",
   "dependencies": {
     "axios": "^1.7.7",
-    "bcrypt": "^5.1.0",
+    "bcrypt": "^6.0.0",
     "dotenv": "^16.0.3",
     "ethers": "^6.13.3",
     "influx": "^5.9.3",
